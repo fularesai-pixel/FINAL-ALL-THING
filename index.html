@@ -1,0 +1,135 @@
+```html
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Performance -->
+    <link rel="preconnect" href="https://cdn.gpteng.co" crossorigin />
+    <link rel="dns-prefetch" href="https://cdn.gpteng.co" />
+
+    <title>Sparkle — Meet & Chat with New People Nearby</title>
+
+    <!-- Critical CSS (fast first paint) -->
+    <style>
+      html,body,#root{
+        margin:0;
+        padding:0;
+        background:hsl(340,30%,97%);
+        color:hsl(240,10%,20%);
+        font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+        -webkit-font-smoothing:antialiased
+      }
+      #root>div{
+        max-width:28rem;
+        margin:0 auto;
+        min-height:100vh
+      }
+      header{
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        padding:.75rem 1rem
+      }
+      .lcp-img{
+        width:100%;
+        aspect-ratio:4/3;
+        object-fit:cover;
+        border-radius:1rem;
+        display:block
+      }
+      @font-face{
+        font-family:"CameraPla";
+        font-display:swap;
+        src:local("Arial")
+      }
+    </style>
+
+    <!-- SEO -->
+    <meta name="description" content="Discover matches, chat instantly, and meet new people nearby with Sparkle." />
+    <meta name="author" content="Sparkle" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Sparkle — Meet & Chat with New People Nearby">
+    <meta property="og:description" content="Discover matches, chat instantly, and meet new people nearby with Sparkle.">
+    <meta property="og:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/336cd280-4737-4f00-a83c-d2e430f0af31/id-preview.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Sparkle — Meet & Chat with New People Nearby">
+    <meta name="twitter:description" content="Discover matches, chat instantly, and meet new people nearby with Sparkle.">
+    <meta name="twitter:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/336cd280-4737-4f00-a83c-d2e430f0af31/id-preview.png">
+
+    <!-- Main App -->
+    <script type="module" crossorigin src="/assets/index-Cnw2pXf4.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-lHz6UwW3.css">
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <!-- ========================= -->
+    <!-- 🚀 DELAYED TRACKING START -->
+    <!-- ========================= -->
+
+    <!-- Meta Pixel -->
+    <script>
+      window.addEventListener('load', function() {
+        setTimeout(function() {
+          !function(f,b,e,v,n,t,s){
+            if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)
+          }(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+          fbq('init', '1029425460264161');
+          fbq('track', 'PageView');
+        }, 2000);
+      });
+    </script>
+
+    <!-- Google Analytics -->
+    <script>
+      window.addEventListener('load', function() {
+        setTimeout(function() {
+          var gtagScript = document.createElement('script');
+          gtagScript.async = true;
+          gtagScript.src = "https://www.googletagmanager.com/gtag/js?id=G-G176TZC8TC";
+          document.head.appendChild(gtagScript);
+
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          window.gtag = gtag;
+
+          gtag('js', new Date());
+          gtag('config', 'G-G176TZC8TC');
+        }, 2500);
+      });
+    </script>
+
+    <!-- Smartlook (optional - heavy) -->
+    <script>
+      window.addEventListener('load', function() {
+        setTimeout(function() {
+          window.smartlook||(function(d) {
+            var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+            var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+            c.charset='utf-8';c.src='https://web-sdk.smartlook.com/recorder.js';h.appendChild(c);
+          })(document);
+          smartlook('init', 'b004cc96b377ddce495e3799e3421bf9c170882c', { region: 'eu' });
+        }, 4000);
+      });
+    </script>
+
+    <!-- ======================= -->
+    <!-- 🚀 DELAYED TRACKING END -->
+    <!-- ======================= -->
+
+  </body>
+</html>
+```
